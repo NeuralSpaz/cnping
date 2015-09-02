@@ -19,3 +19,5 @@ searchnet : os_generic.o ping.o searchnet.o
 clean : 
 	rm -rf *.o *~ cnping cnping.exe
 
+install : 
+	cp cnping /usr/sbin cnping
